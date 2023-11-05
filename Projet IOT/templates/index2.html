@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche d'élève</title>
+    <link rel="icon" type="image/png" href="static/form.png">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 class="rouge">Veuiller remplir la fiche de l'élève :</h1>
+    <form>
+        <label class="orange sizey" for="">nom :</label><input class="padr input-width" type="text" > <br>
+        <br>
+        <label class="orange sizey" for="">prénom :</label><input class="padr input-width" type="text"> <br>
+        <br>
+        <label class="orange sizey" for="dob">date de naissance :</label> <input class="padr input-width sizey rouge" type="date"> <br>
+        <br>
+        <label class="orange sizey" for="a">Email :</label><input class="padr input-width" type="email" id="a"> <br>
+        <br>
+        <label class="orange sizey" for="">tel :</label><input class="padr input-width" type="text"> <br>
+        <br>
+        <label class="orange sizey" class="bot" for="">adresse :</label> <textarea class="padr input-width" name="" id="" cols="25" rows="6"></textarea> <br>
+        <br>
+      
+    </form>
+    <div class="center up">
+        <a href="{{ url_for('bouton_clique2') }}"><button class="size orange">valider</button></a>
+    </div>
+</body>
+</html>

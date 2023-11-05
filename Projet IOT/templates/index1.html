@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le choix</title>
+     <link rel="icon" type="image/png" href="static/iot.png">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body class="bck center">
+ <h1 class="rouge">la formation choisie :</h1>
+ <div class="gchee"><table border="2px">
+     <tr>
+         <th>numero</th>
+         <th>horaire</th>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td>lundi de 8h à 10h (4 séances)</td>
+     </tr>
+     <tr>
+         <td>2</td>
+         <td>mardi de 14h à 16h(6 séances)</td>
+     </tr>
+     <tr>
+         <td>3</td>
+         <td>mercredi de 10h à 12H(8 séances)</td>
+     </tr>
+ </table></div>
+ 
+ <br>
+ <h2 class="orange">cocher l'horaire voulu :</h2>
+ <input type="radio" name="gender">1 <br>
+ <input type="radio" name="gender">2 <br>
+ <input type="radio" name="gender">3 <br>
+ <br>
+
+ <a href="{{ url_for('bouton_clique1') }}"><button class="size rouge">confirmer</button></a>
+
+
+
+
+</body>
+</html>

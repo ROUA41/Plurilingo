@@ -1,0 +1,72 @@
+.center {
+    text-align: center;
+}
+.rouge {
+    color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.vert {
+    color: rgb(44, 139, 124);
+    font-family: 'Pacifico', cursive;
+}
+.orange {
+    color: rgb(158, 111, 25);
+}
+.padr {
+    margin-left: 50px;
+    font-size: 30px;
+}
+.rose {
+    color: plum;
+}
+.size {
+ font-size: 50px;   
+}
+.sizey {
+    font-size: 30px;
+}
+.droite {
+    padding-right: 30px;
+}
+.gche {
+    padding-left: 60px;
+}
+.gchee {
+    padding-left: 620px;
+}
+.bot {
+    padding-bottom: 100px;
+}
+.up {
+    padding-top: 45px;
+}
+.input-width{
+    width: 500px;
+    height: 35px;
+    border: rgb(112, 184, 218) 2px solid;
+    border-radius: 30px; }
+.down{
+    background-color: rgb(143, 206, 231);
+    margin-top: 150px;
+}   
+.cl{
+    color: rgb(18, 11, 73);
+}
+.gris{
+    background-color: gray;
+}
+.cadre{
+    border: 5px solid #000;
+}
+.bck{
+    background-color: rgb(221, 195, 195);
+}
+.mv{
+    color: rgb(90, 11, 90);
+}
+.wh{
+    color: white;
+}
+.bl{
+    color: black;
+}
